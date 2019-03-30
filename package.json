@@ -1,0 +1,15 @@
+{
+  "name": "functional-js-calculator",
+  "version": "1.0.0",
+  "description": "A functional JavaScript Calculator",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Luis Manzanero",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^24.5.0"
+  }
+}
