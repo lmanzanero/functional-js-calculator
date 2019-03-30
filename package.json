@@ -4,7 +4,8 @@
   "description": "A functional JavaScript Calculator",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "testwatch": "jest --watchAll"
   },
   "keywords": [],
   "author": "Luis Manzanero",
