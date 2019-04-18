@@ -1,9 +1,15 @@
-const operations = {
-    plus: () => '+',
-    minus: () => '-',
-    divided: () => '/',
-    times: () => '*'
+export const plus = () => {
+    return '+'
 }
 
+export const minus = () => {
+    return '-'
+}
 
-module.exports = operations;
+export const times = () => {
+    return '*';
+}
+
+export const divided = () => {
+    return '/';
+}

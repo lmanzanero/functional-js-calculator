@@ -1,6 +1,18 @@
-const operations = require('./operations');
+import { plus, minus, times, divided} from './operations';
 
 
 test('Operation Plus should return +', () =>{
-    expect(operations.plus()).toBe('+');
+    expect(plus()).toBe('+');
+});
+
+test('Operation minus should return -', () => {
+    expect(minus()).toBe('-');
+});
+
+test('Operation times should return *', () => {
+    expect(times()).toBe('*');
+});
+
+test('Operation divided should return /', () => {
+    expect(divided()).toBe('/');
 });

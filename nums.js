@@ -1,8 +1,16 @@
-const numbers = {
-    one: () => 1,
-    two: () => 2,
-    three: () => 3,
-    four: () => 4
+export const one = () => {
+    return 1;
 }
 
-module.exports = numbers;
+export const two = () => {
+    return 2;
+}
+
+export const three = () => {
+    return 3;
+}
+
+export const four = () => {
+    return 4;
+}
+
