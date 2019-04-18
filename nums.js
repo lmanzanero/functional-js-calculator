@@ -1,5 +1,5 @@
-export const one = () => {
-    return 1;
+export const one = (operation) => {
+   return 1;
 }
 
 export const two = () => {

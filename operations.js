@@ -1,9 +1,9 @@
-export const plus = () => {
-    return '+'
+export const plus = (number) => {
+    return + number;
 }
 
 export const minus = () => {
-    return '-'
+    return '-';
 }
 
 export const times = () => {

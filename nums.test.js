@@ -8,6 +8,6 @@ test('Number two should return 2', () => {
     expect(two()).toBe(2);
 });
 
-test('Number three  should return 3', () => {
+test('Number three should return 3', () => {
     expect(three()).toBe(3);
 });
