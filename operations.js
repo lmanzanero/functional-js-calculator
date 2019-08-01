@@ -1,9 +1,9 @@
-export const plus = number => {
-    if(number = null){
+export const plus = (number) => {
+    if(number == undefined){
         return '+'
     } else {
        return `+ ${number}`
-    }
+    } 
 }
 
 export const minus = (number) => {

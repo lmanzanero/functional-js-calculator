@@ -1,7 +1,7 @@
 import { one, two , three, four } from './nums';
 
 test('Number one should return 1', () => {
-    expect(one()).toBe(1);
+    expect(one()).toBe("1");
 });
 
 test('Number two should return 2', () => {

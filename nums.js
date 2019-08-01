@@ -1,10 +1,9 @@
 export const one = (operation) => { 
-
-       if(operation == null){
-        return 1
-       } else{
-        return 1 + operation
-       } 
+    if(operation == null) {
+        return '1';
+    } else {
+        return `1 ${operation}`;
+    }
 }
 
 export const two = () => {
@@ -19,6 +18,3 @@ export const four = () => {
     return 4;
 }
 
-const addStyle = (property) => (value) => (element) => {
-    element.style[property] = value;
-}
