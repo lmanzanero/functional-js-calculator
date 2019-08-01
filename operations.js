@@ -1,15 +1,19 @@
-export const plus = (number) => {
-    return + number;
+export const plus = number => {
+    if(number = null){
+        return '+'
+    } else {
+       return `+ ${number}`
+    }
 }
 
-export const minus = () => {
+export const minus = (number) => {
     return '-';
 }
 
-export const times = () => {
+export const times = (number) => {
     return '*';
 }
 
-export const divided = () => {
+export const divided = (numbers) => {
     return '/';
 }
