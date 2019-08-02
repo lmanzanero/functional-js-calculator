@@ -1,4 +1,6 @@
-import { one, two, three } from './nums';
-import { plus } from './operations';
+import { one, two, three } from './nums.js';
+import { plus } from './operations.js';
 
-console.log(one(plus(one())))
+//Try different variations between 1 and 10
+
+console.log("one(plus(one())) returns", one(plus(one())))
