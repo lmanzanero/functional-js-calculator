@@ -1,8 +1,8 @@
 export const one = (operation) => { 
-    if(operation == null) {
+    if(operation == null || operation === "") {
         return '1';
     } else {
-        return `1 ${operation}`;
+        return `1 ${operation}`
     }
 }
 

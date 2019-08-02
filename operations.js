@@ -1,8 +1,9 @@
 export const plus = (number) => {
-    if(number == undefined){
+    if(number === undefined || number === "" || number === null){
         return '+'
     } else {
-       return `+ ${number}`
+        let result = `+ ${number}`;
+       return result;
     } 
 }
 
