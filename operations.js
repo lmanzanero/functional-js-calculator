@@ -8,13 +8,28 @@ export const plus = (number) => {
 }
 
 export const minus = (number) => {
-    return '-';
+    if(number === undefined || number === "" || number == null){
+        return '-';
+    } else {
+        let result = `- ${number}`
+        return result;
+    }
 }
 
 export const times = (number) => {
-    return '*';
+    if(number === undefined || number === "" || number == null){
+        return '*';
+    } else {
+        let result = `* ${number}`
+        return result
+    }
 }
 
-export const divided = (numbers) => {
-    return '/';
+export const divided = (number) => {
+    if(number === undefined || number === "" || number == null){
+        return '/';
+    } else {
+        let result = `/ ${number}`
+        return result
+    }
 }
