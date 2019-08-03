@@ -2,3 +2,60 @@ body {
     margin: 0 auto;
     text-align: center;
 }
+
+.calculator-box {
+    position: relative;
+    width: 400px;
+    height: 580px;
+    margin: 0 auto;
+    background-color: blanchedalmond;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.calculator-box .calculator-header{
+    background-color: antiquewhite;
+    height: 50px;
+}
+
+.calculator-header p {
+    font-family: monospace;
+    font-size: 1.5em;
+    color: black;
+    text-align: center; 
+    padding: 10px 0px 3px 10px;
+}
+
+.calculator-box .screen-box {
+    margin: 0 auto;
+    width: 300px;
+    height: 50px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.calculator-box .screen-box input {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.numbers-box {
+    position: relative;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;  
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    margin: 0 auto;  
+    width: 350px; 
+    height: 400px;
+    background-color: antiquewhite;
+    border-radius: 5px;
+}
+
+.numbers-box button {
+    background-color: wheat;
+    font-family: monospace;
+    font-size: 30px;
+    border-radius: 5px;
+}
