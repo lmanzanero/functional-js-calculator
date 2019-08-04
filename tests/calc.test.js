@@ -1,5 +1,5 @@
-import { one, two, three, four, five, six, seven, eight, nine, ten } from './nums';
-import { plus, minus, times, divided } from './operations';
+import { one, two, three, four, five, six, seven, eight, nine, ten } from '../js/nums';
+import { plus, minus, times, divided } from '../js/operations';
 
 test('one(plus(two())) should return 3', () => {
     expect(one(plus(two()))).toBe(3);

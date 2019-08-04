@@ -1,4 +1,4 @@
-import { one, two , three, four, five, six, seven, eight, nine, ten } from './nums';
+import { one, two , three, four, five, six, seven, eight, nine, ten } from '../js/nums';
 
 test('Function one() should return 1', () => {
     expect(one()).toBe(1);
