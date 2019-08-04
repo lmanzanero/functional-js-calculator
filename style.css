@@ -26,25 +26,23 @@ h1 {
 
 .calculator-box .calculator-header{ 
     background-image: linear-gradient(antiquewhite, blanchedalmond);
-    height: 50px;
+    height: 65px; 
 }
 
-.calculator-header p {
+.calculator-box .calculator-header p {
     font-family: cursive;
-    font-size: 1.8em;
+    font-size: 1.9em;
     color: black;
     text-align: center; 
-    padding: 10px 0px 3px 10px;
+    margin: 15px 0px 3px 10px;
 }
-
- 
 
 .calculator-box .screen-box {
     margin: 0 auto;
-    width: 300px;
-    height: 50px;
-    padding-bottom: 30px;
-    padding-top: 30px;
+    width: 340px;
+    height: 70px;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 .calculator-box .screen-box input {
